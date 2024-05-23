@@ -8,12 +8,13 @@
         body {
             font-family: 'Aktiv Grotesk', sans-serif;
             color: #33374E;
-            background-color: #FFFFFF;
+            background: url('https://www.w3schools.com/w3images/mountains.jpg') no-repeat center center fixed;
+            background-size: cover;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ABC43F;
+            background-color: rgba(171, 196, 63, 0.8);
             color: #FFFFFF;
             padding: 20px;
             text-align: center;
@@ -24,6 +25,9 @@
         }
         main {
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
         }
         .section-title {
             font-family: 'Patua One', sans-serif;
@@ -54,6 +58,15 @@
             color: #ABC43F;
             text-decoration: none;
         }
+        .profile-pic, .logo {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            max-width: 150px;
+        }
+        .logo {
+            border-radius: 0;
+        }
     </style>
 </head>
 <body>
@@ -61,6 +74,7 @@
     <header>
         <h1>Raúl Gaya Molina</h1>
         <p>CEO de Taller del Patinete</p>
+        <img src="P1550201.JPG" alt="Raúl Gaya Molina" class="profile-pic">
     </header>
 
     <main>
@@ -81,6 +95,7 @@
                     <li>Colaboraciones con marcas líderes de patinetes</li>
                 </ul>
             </div>
+            <img src="P1550241.JPG" alt="Taller del Patinete" class="logo">
         </section>
         <section>
             <h2 class="section-title">Redes Sociales</h2>
